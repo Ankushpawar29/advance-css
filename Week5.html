@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advanced Portfolio - CSS Grid Project</title>
+    <link rel="stylesheet" href="style_2.css">
+</head>
+<body>
+    <header class="site-header">
+        <nav class="nav" role="navigation">
+            <div class="nav__logo">ANKUSH PAWAR</div>
+            <ul class="nav__list">
+                <li><a href="#home" class="nav__link">Home</a></li>
+                <li><a href="#projects" class="nav__link">Projects</a></li>
+                <li><a href="#skills" class="nav__link">Skills</a></li>
+                <li><a href="#contact" class="nav__link">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="site-main">
+        <section id="home" class="hero">
+            <div class="hero__content">
+                <h1 class="hero__title">Advanced CSS Portfolio</h1>
+                <p class="hero__subtitle">Showcasing modern web techniques with Grid, Flexbox, and animations.</p>
+                <button class="hero__cta btn--primary">View Projects</button>
+            </div>
+        </section>
+
+        <section id="projects" class="projects">
+            <h2 class="section-title">Projects</h2>
+            <div class="projects__grid">
+                <article class="project-card">
+                    <div class="project-card__image"></div>
+                    <div class="project-card__content">
+                        <h3 class="project-card__title">Kotlin App</h3>
+                        <p class="project-card__desc">Android app built with Kotlin for college assignment.</p>
+                        <a href="#" class="project-card__link">View</a>
+                    </div>
+                </article>
+                <article class="project-card">
+                    <div class="project-card__image"></div>
+                    <div class="project-card__content">
+                        <h3 class="project-card__title">Web Dashboard</h3>
+                        <p class="project-card__desc">Responsive dashboard using CSS Grid and Flexbox.</p>
+                        <a href="#" class="project-card__link">View</a>
+                    </div>
+                </article>
+                <article class="project-card">
+                    <div class="project-card__image"></div>
+                    <div class="project-card__content">
+                        <h3 class="project-card__title">AI Portfolio</h3>
+                        <p class="project-card__desc">ML-integrated web app with animations.</p>
+                        <a href="#" class="project-card__link">View</a>
+                    </div>
+                </article>
+                <article class="project-card">
+                    <div class="project-card__image"></div>
+                    <div class="project-card__content">
+                        <h3 class="project-card__title">E-commerce Site</h3>
+                        <p class="project-card__desc">Full-stack project with PHP backend.</p>
+                        <a href="#" class="project-card__link">View</a>
+                    </div>
+                </article>
+                <article class="project-card">
+                    <div class="project-card__image"></div>
+                    <div class="project-card__content">
+                        <h3 class="project-card__title">resturant webSite</h3>
+                        <p class="project-card__desc">frontened project</p>
+                        <a href="#" class="project-card__link">View</a>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <section id="skills" class="skills">
+            <h2 class="section-title">Skills</h2>
+            <ul class="skills__list">
+                <li class="skill-item">CSS Grid & Flexbox</li>
+                <li class="skill-item">JavaScript/Kotlin</li>
+                <li class="skill-item">Responsive Design</li>
+                <li class="skill-item">Animations & AI</li>
+                <li class="skill-item">Python</li>
+                <li class="skill-item">Html</li>
+                <li class="skill-item">C++</li>
+                <li class="skill-item">MY SQL</li>
+
+
+
+
+            </ul>
+        </section>
+
+        <section id="contact" class="contact">
+            <h2 class="section-title">Contact</h2>
+            <form class="contact__form">
+                <input type="text" placeholder="Name" class="form-input" required>
+                <input type="email" placeholder="Email" class="form-input" required>
+                <textarea placeholder="Message" class="form-textarea" required></textarea>
+                <button type="submit" class="btn--primary">Send</button>
+            </form>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <p>&copy; 2026 AnkushPawar. Built with advanced CSS.</p>
+    </footer>
+</body>
+</html>
